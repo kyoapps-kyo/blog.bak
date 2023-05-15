@@ -87,19 +87,19 @@ const mapToObject = (map: Map<string, number>): CalendarData[] => {
 
 const date: Map<string, number> = dateFormat(fillDate, uniqueArray);
 const newDate = mapToObject(date);
-console.log(newDate);
+// console.log(newDate);
 
 const tempMap = new Map()
-const yearlyConstruct = (map: Map<string, number>)=>{
-    const result = new Map()
-    for(const key in map.keys()){
-        if(!result.has(key)){
-            result.set(key, new Map(key.slice(5,7), map.get(key)))
-        }else{
+// const yearlyConstruct = (map: Map<string, number>)=>{
+//     const result = new Map()
+//     for(const key in map.keys()){
+//         if(!result.has(key)){
+//             result.set(key, new Map(key.slice(5,7), map.get(key)))
+//         }else{
 
-        }
-    }
-}
+//         }
+//     }
+// }
 
 </script>
 

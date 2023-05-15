@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/content'
   ],
   colorMode: {
-    preference: 'system', // default theme
+    preference: 'dark', // default theme
     dataValue: 'theme', // activate data-theme in <html> tag
     classSuffix: '',
   },
@@ -17,6 +17,7 @@ export default defineNuxtConfig({
     }
   },
   app: {
-    pageTransition: { name: 'page', mode: 'out-in' }
+    pageTransition: { name: 'page', mode: 'out-in' },
+    baseURL: 'kyoapps-kyo.github.io'
   },
 });
