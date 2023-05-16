@@ -18,6 +18,6 @@ export default defineNuxtConfig({
   },
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
-    baseURL: 'kyoapps-kyo.github.io'
+    // baseURL: '/kyoapps-kyo.github.io/'
   },
 });
