@@ -20,4 +20,7 @@ export default defineNuxtConfig({
     pageTransition: { name: 'page', mode: 'out-in' },
     // baseURL: '/kyoapps-kyo.github.io/'
   },
+  nitro: {
+    preset: 'vercel'
+  }
 });
